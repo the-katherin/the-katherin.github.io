@@ -123,10 +123,10 @@ body {
   border: 1px solid grey;
   padding: 15px;
   margin-right: 10px;
-  margin-bottom: 10px;
-  cursor: pointer; }
+  margin-bottom: 10px; }
 
 .channels-list .channel {
+  cursor: pointer;
   max-width: 150px; }
   @media (min-width: 1200px) {
     .channels-list .channel {
@@ -169,6 +169,8 @@ body {
     @media (min-width: 1900px) {
       .news-list .news__image {
         max-width: 500px; } }
+  .news-list .news .news-title {
+    cursor: pointer; }
   .news-list .news .news-info {
     font-size: 0.8rem; }
 
