@@ -65,9 +65,22 @@ body {
     body a:hover {
       text-decoration: underline; }
 
+.show-news-button-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .show-news-button-container--hidden {
+    display: none; }
+
 .show-news-portal-button {
-  position: absolute;
-  top: 50%;
   background: #00264d;
   color: white;
   padding: 5px 25px;
@@ -77,6 +90,4 @@ body {
           box-shadow: 3px 3px 5px 1px #757575; }
   .show-news-portal-button:hover {
     cursor: pointer; }
-  .show-news-portal-button--hidden {
-    display: none; }
 
